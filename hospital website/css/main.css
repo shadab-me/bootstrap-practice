@@ -1,0 +1,138 @@
+<!---Fearture Css Start From here-->
+      
+
+        #back{    
+            background-color:#373737;
+            height: 25px;
+            color: white;
+         
+        }
+        #phone{
+            color: white;
+        }  
+          
+
+        @media screen and (min-width: 720px) {
+                #user{
+            
+            color: white;
+            position: absolute;
+            left: 80%;
+            
+        }
+        }
+         @media screen and (min-width: 720px) {
+        #in{
+            color: white;
+            position: absolute;
+            left: 87%;
+        }
+        }
+        #header{
+            color: black;
+            height: 130px;
+            background: #95DDFF;
+            
+        }
+        
+       #item{
+            background:#8484FF;
+            color: white;
+            margin-top:-19px;
+            padding: 0px;
+            border: none;
+            font-size: 15px;
+       
+           
+        }
+        ul li:hover{
+            background: #FF93FF;
+            color: #FF8080;
+            border-bottom: 2px solid red; 
+        }
+
+        
+        
+        .caret{
+            color: white;
+        }
+        
+          .container{
+              width: 100%;
+              height: auto;
+              margin: 0px;
+              padding: 0px;
+              
+          }
+      
+          .row{
+              width: 100%;
+          }
+          img{
+              width: 100%;
+          }
+          <!--footer Css Start From here-->
+     
+        
+          
+          <!---Social Icon css Start From Here-->
+
+
+          .social-icon ul li{
+            
+           }
+          .social-icon ul li:hover{
+              color: white;
+            
+          }
+          <!--footer Form Css Start From here-->
+          input{
+              padding: 10px;
+              margin: 10px;
+              border-radius: 5px;
+          }
+          #btn{
+            
+          }
+    
+          .Add{
+              color: white;
+              align-items: center;
+              align-content: center;
+              margin: 25px;
+          }
+          .f-section{
+             color: white;
+          }
+          .footer-link{
+              color: white;
+              
+          }
+           
+
+
+
+           
+          #bg{
+            background-image:url(image/bg.jpg);
+            width:100%;
+            height: auto;
+            background: cover;
+            background-attachment:fixed;   
+        }
+         #bg row{
+            height: 240px;
+            align-content: center;
+        }
+    
+        #bg services img{
+            align-content: center;
+            margin: 25px;
+            margin-top:10px;
+            
+        }
+        
+       #services h3{
+            margin-left: -25px;
+        }
+        <!---services Section css end from here-->

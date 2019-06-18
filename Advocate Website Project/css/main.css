@@ -1,0 +1,24 @@
+#nav-item li{
+ padding: 15px;
+    
+}
+
+#nav-item li a{
+    display: block;
+    color: white;
+    margin-left: 50px;
+    border-color: red;
+    
+}
+#nav-item li a:hover{
+    background-color: aqua;
+}
+#nav{
+    background-color: blue;
+}
+.service-description{
+    text-align: justify;
+}
+.img-caption{
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+header{
+	background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)) ,url(/img/hero.jpg) no-repeat center center /cover;
+	height: 100vh;
+
+}
+.hero{
+position: absolute;	
+top: 50%;
+left: 50%;
+transform: translate(-50px);
+}
+.hero-head{
+animation-name: ani;
+animation-duration: 2s;
+animation-delay: .2s;
+}
+.hero-par{
+	animation-name: ani;
+	animation-duration: 2s;
+	animation-fill-mode: backwards;
+
+}
+
+@keyframes ani{
+	0%{
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+.nav-menu{
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5));
+}
+.card-shadow{
+	box-shadow: 5px 10px 20px #225555;
+}
+.card h6{
+	position: absolute;
+	top: 80%;
+	right: 0%;
+	margin: 5px;
+	background-color:red;
+	color: white;
+	width: 30%;
+	text-align: center;
+	opacity: 0.7;
+	cursor: pointer;
+	height: 30px;
+
+	
+}
+.card h6:hover{
+	opacity: 1;
+}
