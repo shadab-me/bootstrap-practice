@@ -1,0 +1,8 @@
+i{
+    transition: all 0.3s ease-out;
+    margin: 5px;
+ }
+i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
